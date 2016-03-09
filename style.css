@@ -1,0 +1,392 @@
+/*
+ Theme Name:   IPACS-Ascent
+ Theme URI:    
+ Description:  IPACS Theme derived from Ascent theme
+ Author:       Vitaliy Shiegin
+ Author URI:   
+ Template:     ascent
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  ascent-child
+*/
+
+
+.current_page_ancestor > a
+, .current_page_parent > a
+, .current-post-ancestor > a
+{
+    background-color: #049CA2;
+    //background-color: #1ABC9C;
+    color: #FFF !important;
+}
+
+
+article, header {
+//	width: 100%;
+//	border: solid thin red;
+//	margin: 0;
+}
+
+.main-content {
+//	border: solid thin red;
+//	width: 100%;
+//	margin: 0 !important;
+	padding: 15px 0px !important;
+}
+.main-content .container {
+//	border: solid thin red;
+//	width: 100%;
+//	margin: 0 !important;
+//	padding: 0;
+}
+
+.main-content .container #content {
+//	border: solid thin red;
+//	width: 100%;
+//	margin: 0 !important;
+//	padding: 0;
+}
+
+/*
+body {
+	position: relative;
+
+	//background-image: url(http://images.tildacdn.info/139a5a97-1888-40fe-a169-fca999a9c5d8/);
+	background-image: url(http://physcon.ru/wp-content/uploads/2016/03/fractal-1076861_1280.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	//background-attachment: scroll;
+	background-size: cover;
+}
+.body-shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	//background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.8));
+	//background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+	//background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.5));
+}
+
+.body-content {
+	position: relative;
+	z-index: 10;
+}
+*/
+
+
+
+.blk-cover {
+	position: relative;
+
+	//background-image: url(http://images.tildacdn.info/139a5a97-1888-40fe-a169-fca999a9c5d8/);
+	background-image: url(http://physcon.ru/wp-content/uploads/2016/03/fractal-1076861_1280.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	//background-attachment: scroll;
+	background-size: cover;
+
+	//min-height: 60vh;
+	//height: 100vh;
+	//margin-top: 0px;
+	//margin-bottom: 0px;
+	margin: 0;
+	padding: 3em 0 3em 0;
+//	background-color: #d0d0d0;
+
+	border-radius: 0px !important;
+
+//	text-shadow: -1px -1px 1px #ffffff;
+	text-shadow: -1px -1px 1px #000000;
+	color: #ffffff;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	overflow: hidden;
+	//overflow: scroll;
+
+//	z-index: 1;
+
+	//@include background-image(linear-gradient(to right, white, #dddddd));
+	//@include background-image(radial-gradient(450px 450px, cyan 30px, dodgerblue 90px));
+
+
+}
+
+.blk-cover:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	//background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.8));
+	//background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+	background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.0));
+}
+
+	.blk-cover .layer-2 {
+		z-index: 20;
+		margin-left: auto;
+		margin-right: auto;
+		//border: solid thin red;
+		text-align: center;
+	}
+
+	.blk-cover h1 {
+		font-weight: 100;
+
+//		margin-top: 12vh;
+//		margin-bottom: 6vh;
+//		color: rgba(255, 255, 0, 0.1);
+//		opacity: 0.1;
+//		max-width: 1200px;
+		max-width: 20em;
+//		margin: 100px auto 50px auto;
+//		margin: 2em auto 1em auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		font-size: 36pt;
+		//font-size: 120%;
+	}
+	.blk-cover h4 {
+	//	text-transform: uppercase;
+		max-width: 30em;
+//		margin: 4em auto 0px auto;
+		font-size: 16pt;
+		font-weight: 300;
+		//font-weight: normal;
+		//font-weight: bold;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		//font-size: 120%;
+	}
+	.blk-cover p {
+		max-width: 40em;
+//		margin: 0px auto 4em auto;
+		font-size: 14pt;
+		//font-size: 120%;
+		font-weight: 100;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+	}
+
+.page-block {
+	//position: relative;
+	//float: left;
+	margin: 10px 0%;
+//	padding: 10px;
+//	width: 100%; 
+//	box-shadow: -3px -3px 10px rgba(0,0,0,0.5);
+	box-shadow: -1px -1px 3px rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,1);
+ 	 margin: 10px 1% 10px 1%;
+	padding: 10px;
+}
+.page-block h2{
+	margin: 0 0 10px 0;
+}
+.page-block h3{
+//	margin: 0 0 10px 0;
+}
+
+img.in-text-top-left {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	max-width: 40%;
+}
+.page-block img {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	max-width: 40%;
+}
+.page-blocks-row {
+//	margin: 0;
+	padding: 10px 0 10px 0;
+	//margin-top: 20px;
+//	padding-top: 20px;
+//	padding-bottom: 20px;
+//	background-color: rgba(240,240,240,1);
+	//background-color: #3498db !important;
+	//background-color: #eeeeee !important;
+}
+
+.lib-search-form {
+	position: relative;
+	//position: absolute;
+	float: left;
+	width: 100%;
+	max-width: 620px;
+	//height: 32px !important;
+}
+.lib-search-form button {
+	position: absolute;
+	right: 0px;
+	//top: 6px;
+	height: 32px !important;
+	width: 32px !important;
+	padding: 0;
+}
+.lib-search-form input {
+	//height: 32px;
+	height: 32px !important;
+	padding-right: 35px;
+	width: 100%;
+	//box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	//box-shadow:inset 0 0 1px 5px #888;
+	box-shadow:inset -1px -1px 0px 0px rgba(0,0,0,0.5);
+}
+
+.page-block.contacts {
+	position: relative;
+}
+.page-block.contacts span span {
+	//position: relative;
+//	color: #f00;
+	position: absolute;
+	left: 30px;
+//	float:left;
+//	font-weight:bold;
+//	margin-right:20px;
+//	padding:5px;
+//	width:20px;
+}
+
+.pre-container-1 {
+	//background-color: rgba(240,240,240,1);
+	background-color: rgba(255,255,255,1);
+}
+.pre-container-2 {
+	//background-color: rgba(225,225,225,1);
+	background-color: rgba(200,200,200,1);
+
+	position: relative;
+
+	//background-image: url(http://images.tildacdn.info/139a5a97-1888-40fe-a169-fca999a9c5d8/);
+	background-image: url(http://physcon.ru/wp-content/uploads/2016/03/fractal-1076861_1280.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	//background-attachment: scroll;
+	background-size: cover;
+
+
+}
+@media only screen and (max-width: 640px) {
+	.container {
+		padding-right: 2px !important;
+		padding-left: 2px !important;
+	}
+	.row {
+		margin-right: -2px !important;
+		margin-left: -2px !important;
+	}
+}
+
+/* Fix Parent Theme Bug */
+.flex-c .widget {
+//    margin-bottom: initial !important;
+}
+
+.flex-c {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	//align-items: center;
+	align-items: stretch;
+	//justify-content: space-around;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.flex-i {
+	flex: 1;
+	flex-grow: 2;
+	flex-shrink: 2;
+	margin: 10px 1% 10px 1% !important;
+	padding: 10px;
+	min-width: 280px;
+	max-width: 600px;
+}
+
+
+.recent-post-content {
+//	color: #000000;
+}
+.recent-post-content p {
+  text-align: justify;
+}
+.recent-post-content h3 {
+	//padding-bottom: 10px;
+	margin: 0 0 15px 0;
+}
+//  .recent-post-content h3 a {
+//    color: #3498db; }
+//    .recent-post-content h3 a:hover {
+//      color: #FFFFFF; }
+
+//.recent-post-content p.readmore {
+//  text-align: center; }
+
+//.recent-post-content p.readmore a {
+//  background-color: #34495E; }
+
+//.recent-post-content p.readmore a:hover {
+//  color: #FFFFFF;
+//  background-color: #3498db; }
+
+
+
+
+
+
+
+#perpagemenu {
+	//background-color: rgba(60,120,200, 0.95) !important;
+	//background-color: #34495E !important;
+	//background-color: rgba(52, 73, 94, 0.25) !important;
+	//background-color: rgba(200, 200, 255, 0.9) !important;
+	background-color: #049CA2;
+	//color: #000000;
+	color: #ffffff;
+}
+#perpagemenu li {
+	display: inline;
+}
+#perpagemenu li:after {
+	content: " | ";
+}
+
+#perpagemenu li:last-child:after {
+	content: "";
+}
+
+#perpagemenu ul.children li:after {
+	content: none;
+}
+
+#perpagemenu li a {
+	//background-color: #34495E !important;
+	padding: 6px;
+	//color: #000000;
+	color: #ffffff;
+}
+#perpagemenu li a:hover {
+	text-decoration: underline;
+	//background-color: #3498db !important;
+}
+
+
